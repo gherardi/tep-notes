@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<computers>
+    <computer>
+        <marca>hp</marca>
+        <usato>arzuffi</usato>
+        <numero>1</numero>
+        <scheda_video>
+            <marca>NVIDIA</marca>
+            <modello>GTX 1660</modello>
+        </scheda_video>
+        <processore>
+            <marca>Intel</marca>
+            <modello>Core i5-9400F</modello>
+        </processore>
+        <monitor>
+            <marca>HP</marca>
+            <modello>24f</modello>
+        </monitor>
+    </computer>
+    <computer>
+        <marca>dell</marca>
+        <usato>victor</usato>
+        <numero>2</numero>
+        <scheda_video>
+            <marca>AMD</marca>
+            <modello>Radeon RX 5700 XT</modello>
+        </scheda_video>
+        <processore>
+            <marca>AMD</marca>
+            <modello>Ryzen 7 3700X</modello>
+        </processore>
+        <monitor>
+            <marca>Dell</marca>
+            <modello>UltraSharp U3415W</modello>
+        </monitor>
+    </computer>
+    <computer>
+        <marca>alienware</marca>
+        <usato>gavoci</usato>
+        <numero>3</numero>
+        <scheda_video>
+            <marca>NVIDIA</marca>
+            <modello>GeForce RTX 3090</modello>
+        </scheda_video>
+        <processore>
+            <marca>Intel</marca>
+            <modello>Core i9-10900K</modello>
+        </processore>
+        <monitor>
+            <marca>Alienware</marca>
+            <modello>AW3420DW</modello>
+        </monitor>
+    </computer>
+</computers>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="computers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="computer" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="marca" type="xs:string"/>
+              <xs:element name="usato" type="xs:string"/>
+              <xs:element name="numero" type="xs:integer"/>
+              <xs:element name="scheda_video">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="marca" type="xs:string"/>
+                    <xs:element name="modello" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="processore">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="marca" type="xs:string"/>
+                    <xs:element name="modello" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="monitor">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="marca" type="xs:string"/>
+                    <xs:element name="modello" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
